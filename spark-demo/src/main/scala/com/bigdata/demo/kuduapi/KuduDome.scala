@@ -12,7 +12,7 @@ object KuduDome {
 
   def main(args: Array[String]): Unit = {
     val tableName = "test01"
-    val kuduMaster = "10.20.250.117:7051"
+    val kuduMaster = "xxxxx:7051"
 
     val spark = SparkSession
       .builder()
